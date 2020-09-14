@@ -1,0 +1,181 @@
+/*
+* Provides the custom CSS to override the bootstrap default CSS.
+*
+* Framework used:
+* UserSpice 5
+* An Open Source PHP User Management System by the UserSpice Team at http://UserSpice.com
+*
+* @author James Bradford
+* @version 19/04/2020
+*/
+
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/* BUTTONS */
+.close {
+  color: white;
+}
+.btn-primary {
+  font-family: 'Bree Serif', serif;
+  background-color: #000000;
+  border-color: #000000;
+  border-radius: 0px;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #6e6e6e;
+  border-color: #000000;
+}
+.btn-success {
+  font-family: 'Bree Serif', serif;
+  background-color: #009901;
+  border-color: #009901;
+  border-radius: 0px;
+  color: white;
+}
+.btn-success:hover {
+  background-color: #036903;
+  border-color: #009901;
+}
+.btn-danger {
+  border-radius: 0px;
+  background-color: #bf0f02;
+  border-color: #bf0f02;
+  font-family: 'Bree Serif', serif;
+}
+.btn-light {
+  font-family: 'Bree Serif', serif;
+  background-color: white;
+  border-radius: 0px;
+  border-color: #000000;
+}
+.btn-light:hover {
+  background-color: #757575;
+  border-color: #000000;
+}
+.btn-secondary {
+  font-family: 'Bree Serif', serif;
+  background-color: #003349;
+  border-radius: 0px;
+  border-color: #003349;
+  color: white;
+}
+.btn-secondary:hover {
+  background-color: #02567a;
+  border-color: #003349;
+}
+.btn-info {
+  font-family: 'Bree Serif', serif;
+  background-color: white;
+  border-radius: 0px;
+  border-color: #000000;
+  color: black;
+}
+.btn-info:hover {
+  background-color: #757575;
+  border-color: #000000;
+}
+
+/* CALENDAR */
+.fc-button-primary {
+  font-family: 'Bree Serif', serif!important;
+  background-color: white!important;
+  border-radius: 0px!important;
+  border-color: #000000!important;
+  color: black!important;
+}
+.fc-button-active {
+  font-family: 'Bree Serif', serif!important;
+  background-color: black!important;
+  border-radius: 0px!important;
+  border-color: #000000!important;
+  color: white!important;
+}
+.fc-button-primary:hover {
+  background-color: #757575!important;
+  border-color: #000000!important;
+}
+.fc-content {
+  border-radius: 0px!important;
+}
+.fc-event-container {
+  background-color: black!important;
+  border: 0px!important;
+  border-radius: 0px!important;
+}
+
+/* TEXT */
+h1 {
+  font-family: 'Bree Serif', serif;
+  font-size: 50px;
+}
+h2 {
+  font-family: 'Bree Serif', serif;
+}
+h3 {
+  font-family: Helvetica;
+}
+.fc-center {
+  font-family: 'Bree Serif', serif!important;
+  font-size: min(2vw, 20px);
+}
+
+/* CONTAINERS */
+body {
+  background: rgb(0,153,1);
+  background: linear-gradient(38deg, rgba(0,153,1,0.5228466386554622) 0%, rgba(11,214,255,0.5144432773109244) 86%);
+}
+.container {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+/* TABLES */
+table {
+  font-family: Helvetica;
+}
+table th {
+  font-family: 'Bree Serif', serif!important;
+}
+
+/* MODALS */
+.modal-header {
+  font-family: 'Bree Serif', serif;
+}
+.modal-body {
+  font-family: Helvetica;
+}
+.modal-content {
+  border-radius: 0px;
+}
+
+/* CARDS */
+.card {
+  border-radius: 0px;
+}
+.card-header {
+  font-family: 'Bree Serif', serif;
+}
+
+/* ALERTS */
+.alert-success {
+  margin-top: 15px;
+  border-radius: 0px;
+  background-color: #009901;
+  border-color: #009901;
+  color: white;
+}
+.alert-danger {
+  margin-top: 15px;
+  border-radius: 0px;
+  background-color: #bf0f02;
+  border-color: #bf0f02;
+  color: white;
+}
+
+/* FORMS */
+.form-control {
+  border-radius: 0px;
+}
